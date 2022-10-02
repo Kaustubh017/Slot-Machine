@@ -1,0 +1,77 @@
+*
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+background-image: url('loginstructure6.jpg');
+
+  background-color:#CDF5FA;
+}
+.name
+{
+    color:rgb(226, 169, 11);
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+.header
+{
+    color:rgb(201, 204, 10);
+text-align: center;
+margin-top: 25px;
+font-size: 30px;
+}
+.grid-container
+{
+margin-top: 40px;
+display: grid;
+grid-template-columns: auto auto auto auto;
+grid-gap: 50px;
+padding: 10px;
+padding-left: 100px;
+}
+.grid-container > div {
+background-color: rgba(255, 255, 255, 0.8);
+border: 1px solid black;
+text-align: center;
+font-size: 50px;
+background-color: cornsilk;
+}
+.grid-container ul
+{
+list-style: none;
+}
+#s1
+{
+margin-top: 15px;
+font-size: 25px;
+margin-bottom: 5px;
+}
+h1 {
+text-shadow: 3px 3px 7px red;
+}
+.s2 {
+color: white;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+a:link {
+color: rgb(243, 224, 57);
+background-color: transparent;
+text-decoration: none;
+}
+a:visited {
+color: rgb(243, 224, 57);
+background-color: transparent;
+text-decoration: none;
+}
+a:hover {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+a:active {
+color: yellow;
+background-color: transparent;
+text-decoration: underline;
+}
